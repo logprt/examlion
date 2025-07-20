@@ -1,5 +1,5 @@
 // ✅ Inject quiz layout HTML dynamically
-document.body.innerHTML += `
+document.getElementById("quiz-root").innerHTML = `
 <div class="uk-container">
   <div class="quiz-wrapper uk-child-width-expand uk-grid-small" uk-grid>
     <div class="uk-width-3-4@m uk-first-column quiz-box-1">
